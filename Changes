@@ -1,0 +1,3 @@
+Added "rhino-cyberiantiger" engine name so this can be accessed inspite of the jvm's builtin javascript engine.
+The classloader that the engine will use for resolving classes is set from Thread.getContextClassLoader() when the ScriptEngine is created.
+The engine version is computed at runtime by searching for the MANIFEST.MF supplied by Rhino, and reading the Implementation-Version attribute from the main section.
